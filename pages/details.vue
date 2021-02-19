@@ -1,0 +1,19 @@
+<template>
+  <div>
+    <h1>詳細</h1>
+    <h2>アプリの概要</h2>
+    <p>自分がこれまでACした問題のACした回数を表示し、復習を助けるWEBアプリです</p>
+    <h2>諸注意</h2>
+    <p>
+      このアプリは
+      <a
+        href="https://github.com/kenkoooo/AtCoderProblems/blob/master/doc/api.md"
+        target="_blank"
+      >AtCoder Problems API</a> および AtCoder APIを利用して作成されています。
+      先方にも注意事項としてあるように無理なAPIリクエストは避けてください。より具体的には検索ボタン連打等は止めてください。
+      節度を守って利用しましょう。
+    </p>
+    <h2>その他</h2>
+    <p>WEBアプリ何もわかりません。アドバイスや提案をプルリクやTwitterで投げてくれると有難いです。</p>
+  </div>
+</template>
