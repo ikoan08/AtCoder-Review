@@ -190,7 +190,7 @@ export default Vue.extend({
             const klass = ContestInfo[1].split('_').pop()
 
             //以下は問題ごとに分類して格納、処理は上とほぼ同じ
-            if (klass === 'a') {
+            if (klass === 'a' || klass === '1') {
               this.Problems_a.push({
                 ProblemName: ContestInfo[1],
                 Count: value,
@@ -201,7 +201,7 @@ export default Vue.extend({
                   ContestInfo[1],
                 Time: latest_submit.get(key) as number,
               })
-            } else if (klass === 'b') {
+            } else if (klass === 'b' || klass === '2') {
               this.Problems_b.push({
                 ProblemName: ContestInfo[1],
                 Count: value,
@@ -212,7 +212,7 @@ export default Vue.extend({
                   ContestInfo[1],
                 Time: latest_submit.get(key) as number,
               })
-            } else if (klass === 'c') {
+            } else if (klass === 'c' || klass === '3') {
               this.Problems_c.push({
                 ProblemName: ContestInfo[1],
                 Count: value,
@@ -223,7 +223,7 @@ export default Vue.extend({
                   ContestInfo[1],
                 Time: latest_submit.get(key) as number,
               })
-            } else if (klass === 'd') {
+            } else if (klass === 'd' || klass === '4') {
               this.Problems_d.push({
                 ProblemName: ContestInfo[1],
                 Count: value,
@@ -234,7 +234,7 @@ export default Vue.extend({
                   ContestInfo[1],
                 Time: latest_submit.get(key) as number,
               })
-            } else if (klass === 'e') {
+            } else if (klass === 'e' || klass === '5') {
               this.Problems_e.push({
                 ProblemName: ContestInfo[1],
                 Count: value,
@@ -245,7 +245,7 @@ export default Vue.extend({
                   ContestInfo[1],
                 Time: latest_submit.get(key) as number,
               })
-            } else {
+            } else if (klass === 'f' || klass === '6') {
               this.Problems_f.push({
                 ProblemName: ContestInfo[1],
                 Count: value,
