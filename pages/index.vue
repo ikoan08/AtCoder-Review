@@ -24,7 +24,7 @@
             <li v-for="(p, index) in Problems" :key="index">
               <p>
                 <a :href="p.URL" target="_blank">{{ p.ProblemName }}</a>
-                : {{ p.Count }}
+                : {{ p.Count }} 回既に解いた
               </p>
             </li>
           </ul>
@@ -34,7 +34,7 @@
             <li v-for="(p, index) in Problems_a" :key="index">
               <p>
                 <a :href="p.URL" target="_blank">{{ p.ProblemName }}</a>
-                : {{ p.Count }}
+                : {{ p.Count }} 回既に解いた
               </p>
             </li>
           </ul>
@@ -44,7 +44,7 @@
             <li v-for="(p, index) in Problems_b" :key="index">
               <p>
                 <a :href="p.URL" target="_blank">{{ p.ProblemName }}</a>
-                : {{ p.Count }}
+                : {{ p.Count }} 回既に解いた
               </p>
             </li>
           </ul>
@@ -54,7 +54,7 @@
             <li v-for="(p, index) in Problems_c" :key="index">
               <p>
                 <a :href="p.URL" target="_blank">{{ p.ProblemName }}</a>
-                : {{ p.Count }}
+                : {{ p.Count }} 回既に解いた
               </p>
             </li>
           </ul>
@@ -64,7 +64,7 @@
             <li v-for="(p, index) in Problems_d" :key="index">
               <p>
                 <a :href="p.URL" target="_blank">{{ p.ProblemName }}</a>
-                : {{ p.Count }}
+                : {{ p.Count }} 回既に解いた
               </p>
             </li>
           </ul>
@@ -74,7 +74,7 @@
             <li v-for="(p, index) in Problems_e" :key="index">
               <p>
                 <a :href="p.URL" target="_blank">{{ p.ProblemName }}</a>
-                : {{ p.Count }}
+                : {{ p.Count }} 回既に解いた
               </p>
             </li>
           </ul>
@@ -84,7 +84,7 @@
             <li v-for="(p, index) in Problems_f" :key="index">
               <p>
                 <a :href="p.URL" target="_blank">{{ p.ProblemName }}</a>
-                : {{ p.Count }}
+                : {{ p.Count }} 回既に解いた
               </p>
             </li>
           </ul>
